@@ -1,0 +1,49 @@
+.container {
+  max-width: 1080px;
+  margin: 200px auto;
+
+  time {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    font-size: 18px;
+  }
+
+  h2 {
+    margin-top: 50px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+
+  .author {
+    text-align: right;
+    color: #6c757d;
+  }
+
+  .buttons {
+    text-align: right;
+    margin-top: 70px;
+
+    button {
+      margin: 0 10px;
+    }
+  }
+
+  &__inner {
+    padding: 50px 20px;
+    border: 1px rgb(216, 222, 228) solid;
+    border-radius: 6px;
+    background: rgb(246, 248, 250);
+    text-align: center;
+
+    .btn {
+      margin: 50px 5px 0;
+    }
+
+    .form {
+      height: 300px;
+    }
+  }
+}

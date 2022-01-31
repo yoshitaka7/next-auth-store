@@ -1,0 +1,20 @@
+.container {
+  max-width: 1080px;
+  margin: 200px auto 0;
+
+  &__inner {
+    padding: 50px 20px;
+    border: 1px rgb(216, 222, 228) solid;
+    border-radius: 6px;
+    background: rgb(246, 248, 250);
+    text-align: center;
+
+    .btn {
+      margin-top: 50px;
+    }
+
+    .form {
+      height: 300px;
+    }
+  }
+}

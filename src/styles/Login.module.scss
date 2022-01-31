@@ -1,0 +1,22 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+
+  h1 {
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  form {
+    padding: 20px;
+    margin-top: 50px;
+    border: 1px rgb(216, 222, 228) solid;
+    border-radius: 6px;
+    background: rgb(246, 248, 250);
+
+    .login {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+}

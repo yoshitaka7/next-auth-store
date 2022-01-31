@@ -1,0 +1,40 @@
+.header {
+  background: rgb(36, 41, 47);
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+
+    :hover {
+      opacity: .5;
+    }
+  }
+
+  &__right {
+    display: flex;
+    justify-content: space-between;
+
+    &__logout {
+      margin-left: 40px;
+    }
+
+    &__user {
+      margin-left: 40px;
+
+      a {
+        display: inline-block;
+      }
+
+      span {
+        vertical-align: middle;
+      }
+
+      svg {
+        margin-left: 10px;
+      }
+    }
+  }
+}
