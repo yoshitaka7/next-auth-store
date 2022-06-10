@@ -1,10 +1,20 @@
-# Next Firebase Authentication/Firebase Store 認証/CRUD処理
+# Next Firebase Authentication/Firebase Store  CRUD
+<p align="center">
+  <a href="https://nextjs.org/">
+    <img src="https://user-images.githubusercontent.com/89970444/173066516-bbac7231-2c86-499c-9369-cbd3a4a83238.svg" height="50px">
+  </a>
+  <a href="https://firebase.google.com/?hl=ja">
+    <img src="https://user-images.githubusercontent.com/89970444/173061737-e0abb641-d8e5-40cf-9266-e2ec203388e9.png" height="50px">
+  </a>
+</p>
+ 
 
 ## Getting Started
-`git clone`
+`git clone`  
+
 ↓
 
-src/db配下にfirebase.ts作成
+create firebase.ts under src/db
 
 ```
 import firebase from 'firebase/compat/app';
